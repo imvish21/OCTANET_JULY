@@ -243,6 +243,7 @@ body{
 
 
 .img-container{
+    /* border: 2px solid red; */
     margin: 0 1rem;
     position: relative;
 }
