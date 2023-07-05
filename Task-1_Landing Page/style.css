@@ -123,6 +123,10 @@ body{
     margin: auto;
     /* object-fit: contain; */
 }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background: red;
+    fill: white;
+}
 /* .showcase-container{
     border: 2px solid brown;
     display: flex;
@@ -139,6 +143,7 @@ body{
 .showcase-container p{
     color: green;
 } */
+
  
 /*about us*/
 #about{
@@ -236,7 +241,16 @@ body{
   border-radius: 50%;
   border: 3px solid brown;
   background-image: none;
+  padding: 13px;
+  
 }
+.carousel-control-prev-icon{
+    transform: translate(-20px);
+}
+.carousel-control-next-icon{
+    transform: translate(40px);
+}
+
 
 
 
@@ -289,4 +303,60 @@ body{
 .img-container:hover .img-content{
     opacity: 1;
     top: 50%;
+}
+
+/*food varieties*/
+.food-menu-heading{
+    /* border: 2px solid black; */
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+    color: #666;
+}
+
+.food-menu-container{
+    /* border: 5px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0 15px 0;
+    max-height: fit-content;
+
+}
+.food-menu-container img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.food-menu-item{
+    /* border: 5px solid blue; */
+    display: flex;
+    flex:1 1 400px;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    box-shadow: 5px 5px 10px #000000b8;
+    /* margin: 0.3rem 0.3rem;
+    padding: auto; */
+}
+.food-description{
+    margin: auto 1.5rem;
+}
+.food-title{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444;
+}
+.food-description p{
+    font-size: 1.4rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.food-description .food-price{
+    font-weight: 700;
+    color: #117964;
 }
