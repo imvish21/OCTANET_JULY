@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
@@ -31,6 +32,87 @@
             <h1 class="logo">FM</h1>
         </div>
     </nav>
+    <section class="showcase-area" id="showcase">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" id="showcase">
+              <div class="carousel-item active">
+                <img src="pic4.jpg" class="d-block w-100" alt="pic1">
+                <!-- <div class="showcase-container">
+                  <h1 class="main-title">Eat Right Food</h1>
+                  <p>Eating is good for health</p>
+                  <a href="#food-menu" class="btn btn-primary">Menu</a>
+                </div> -->
+              </div>
+              <div class="carousel-item">
+                <img src="pic13.jpg" class="d-block w-100" alt="pic2">
+              </div>
+              <div class="carousel-item">
+                <img src="pic14.jpg" class="d-block w-100" alt="pic3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <p class="sm">About Us</p>
+          <h2>We have been making food for last 50 years</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, veniam quia iusto rem ea qui consequuntur esse voluptatibus illum illo facere ipsum laudantium. Porro, excepturi maiores! Veritatis iusto odio deleniti natus aut neque ullam exercitationem corrupti ab?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia blanditiis earum consequatur accusamus doloremque reprehenderit distinctio sequi quasi voluptates porro? Sit incidunt ad obcaecati, accusantium repudiandae voluptates ipsum placeat! Sed illo alias laudantium ipsa beatae doloremque modi fugiat facere perferendis, fugit libero molestias odit, asperiores ratione eveniet dolore quisquam maxime?
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="about-img.jpg" alt="About Us">
+        </div>
+      </div>
+    </section>
+    <section id="food">
+      <h2>Menu Items</h2>
+      <div class="food-container container">
+        <div class="food-type pizza">
+          <div class="img-container">
+            <img src="Pizza.jpg" alt="pizza">
+            <div class="img-content">
+              <h3>Pizza</h3>
+              <a href="https://en.wikipedia.org/wiki/Pizza" class="btn1 btn-primary" target="_blank">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="food-type burger">
+          <div class="img-container">
+            <img src="burger.jpg" alt="burger">
+            <div class="img-content">
+              <h3>Burger</h3>
+              <a href="https://en.wikipedia.org/wiki/Burger" class="btn1 btn-primary" target="_blank">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="food-type pasta">
+          <div class="img-container">
+            <img src="pasta.jpg" alt="pasta">
+            <div class="img-content">
+              <h3>Pasta</h3>
+              <a href="https://en.wikipedia.org/wiki/Pasta" class="btn1 btn-primary" target="_blank">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
