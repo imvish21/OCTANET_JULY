@@ -119,7 +119,7 @@ body{
 .carousel-item img{
     /* border: 3px solid blue; */
     display: block;
-    max-height: 60vh;
+    max-height: 70vh;
     background-size: cover;
     margin: auto;
     /* object-fit: contain; */
@@ -128,6 +128,13 @@ body{
     background: red;
     fill: white;
 }
+
+.carousel-item video {
+    background-size: cover;
+    margin: auto;
+    width: 100%; 
+    object-fit: cover;
+    max-height: 70vh;}
 /* .showcase-container{
     border: 2px solid brown;
     display: flex;
