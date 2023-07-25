@@ -1,0 +1,211 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    :root{
+        --bg-color: #1f2424;
+        --second-bg-color: #323946;
+        --text-color: #fff;
+        --main-color: #0ef;
+    }
+    html{
+        font-size: 62.5%;
+        overflow-x: hidden;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-color: black;
+    }
+    ul li{
+        list-style: none;
+        /* color: #333; */
+    }
+    
+    a{
+        font-size: 1.6rem;
+        text-decoration: none;
+        /* color: #333; */
+    } 
+    #menu-icon{
+        font-size: 3.6rem;
+        color: var(--text-color);
+        display: none;
+     }
+     .navbar a.active {
+        color: var(--main-color);
+    }
+    
+    .heading{
+        
+        /* border: 2px solid red; */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         background: #000;
+         /* background: transparent; */
+         backdrop-filter: blur(10);
+         z-index: 1000;
+        /* backdrop-filter: blur(5rem); */
+        /* padding: 0.3rem 2%; */
+        height: 10vh;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        /* object-fit: contain; */
+
+    }
+    
+    .navbar{
+        /* border: 2px solid saddlebrown; */
+        max-height: 10vh;
+       
+    }
+
+    .navbar a{
+        /* border: 2px solid green; */
+        font-size: 1.7rem; 
+        color: var(--text-color);
+        font-weight: 500;
+        margin-left: 6rem;
+        text-decoration: none;
+        padding-bottom: 1rem;
+        text-align: center;
+        
+    }
+
+    .navbar a:hover{
+        /* color: aquamarine; */
+        color: var(--main-color);
+        transform: scale(1.10);
+        /* text-align: center; */
+    }
+
+
+
+    section{
+        min-height: 40vh;
+        display: flex;
+        flex-direction: column;
+       
+        /* padding: 5rem 9% 1rem;
+        margin: 2rem; */
+        /* border: 5px solid brown; */
+        /* object-fit: cover; */
+    }
+    .iphone1{
+        /* border: 2px solid red; */
+        margin-top: 70px;
+        /* padding: 0.2rem;
+        margin: 0.2rem; */
+    }
+    .first a img{
+       display: block;
+       width: 100%;
+       height: 100%;
+       object-fit: contain;
+       padding: auto;
+       margin: auto;
+    }
+    .iphone2{
+        /* border: 2px solid red; */
+        /* margin-top: 70px; */
+        /* padding: 0.2rem;
+        margin: 0.2rem; */
+    }
+    .second a img{
+       display: block;
+       width: 100%;
+       height: 100%;
+       object-fit: contain;
+       padding: auto;
+       margin: auto;
+    }
+    .third a img{
+       display: block;
+       width: 100%;
+       height: 100%;
+       object-fit: contain;
+       padding: auto;
+       margin: auto;
+    }
+
+    .mac1{
+        /* border: 2px solid red; */
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .mac1 a img{
+        display: block;
+        /* display: inline-block; */
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 100%;
+        padding: auto;
+        margin: auto;
+        /* object-fit: contain; */
+        
+    }
+    .learn{
+        /* border: 2px solid red; */
+        display: flex;
+        margin: auto;
+        /* flex-wrap: wrap; */
+    }
+    .learn a img{
+        display: block;
+        /* display: inline-block; */
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 100%;
+        margin: 0.8rem;
+        padding: 1rem;
+        margin: auto;
+        box-shadow: 2px 2px 5px #474444;
+        /* object-fit: contain; */
+        
+    }
+    .ipad{
+        /* border: 2px solid red; */
+        display: flex;
+        margin: auto;
+        /* flex-wrap: wrap; */
+    }
+    .ipad a img{
+        display: block;
+        /* display: inline-block; */
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 100%;
+        margin: 0.8rem;
+        padding: 1rem;
+        margin: auto;
+        box-shadow: 2px 2px 5px #474444;
+        /* object-fit: contain; */
+        
+    }
+
+    .footer{
+        background: #fff;
+        color: #263238;
+        padding: 2rem;
+        text-align:center;
+    
+    }
+    .social-links i{
+        /* margin:0 5rem; */
+        font-size: 35px;
+        margin: 0 2rem;
+        /* margin-bottom: 0.5rem; */
+    }
+    footer p{
+        margin-top:0.5rem;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
