@@ -208,4 +208,39 @@
         font-size: 2rem;
         font-weight: 500;
     }
+
+
+
+    @media (max-width:768px){
+
+        .heading{
+            display: block;
+            width: 100%;
+            justify-content: flex-start;
+            left: 0;
+            background: #000;
+        }
+         #menu-icon{
+            display: block;
+            align-items: flex-start;
+            transform: translateY(30%);
+        }
+        .navbar{
+            display: none;
+            width: 100%;
+            background: #000;
+        }
+        .heading a{
+            display: none;
+            width: 100%;
+            background: #000;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            transform: translateX(-30%);
+            transform: translateY(20%); 
+        }
+      
+
+    }
     
